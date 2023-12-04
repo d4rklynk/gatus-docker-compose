@@ -1,0 +1,8 @@
+add_header Strict-Transport-Security "max-age=63072000; includeSubDomains" always;
+add_header Content-Security-Policy "default-src 'none'; connect-src 'self'; font-src 'self'; img-src 'self'; manifest-src 'self'; script-src 'self' 'sha256-LUSLXvjEwVJcvokF3lvWn4V2N8kcLKSh2S8XeB/5w0g='; style-src 'self'; frame-ancestors 'none'; upgrade-insecure-requests; base-uri 'none'";
+add_header Permissions-Policy "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), browsing-topics=(), camera=(), clipboard-read=(), clipboard-write=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), screen-wake-lock=(), serial=(), sync-xhr=(), usb=(), xr-spatial-tracking=()" always;
+add_header Referrer-Policy "same-origin" always;
+add_header X-Content-Type-Options "nosniff" always;
+add_header X-XSS-Protection "0" always;
+add_header Cross-Origin-Resource-Policy same-origin;
+add_header Cross-Origin-Opener-Policy same-origin;
